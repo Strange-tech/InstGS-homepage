@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <meta name="title" content="InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering - Ziang Lu, Kang Du, Xinyao Wei, ZhangQian, John Li, Dong Liang, Zeyu Wang, Jinyuan Jia">
+  <meta name="title" content="InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering - Zi'ang Lu, Kang Du, Xinyao Wei, Qian Zhang, John Li, Dong Liang, Zeyu Wang, Jinyuan Jia">
   <meta name="description" content="Introducing InstGS, the first Gaussian instancing-based accelerated rendering framework that eliminates redundancy in 3D Gaussian Splatting by grouping similar Gaussians into reusable shared templates, achieving high-quality, high-frame-rate, and low-memory rendering.">
   <meta name="keywords" content="3D Gaussian Splatting, novel view synthesis, instancing, accelerated rendering, neural rendering, real-time rendering, Gaussian primitives, scene reconstruction, ECCV 2026">
-  <meta name="author" content="Ziang Lu, Kang Du, Xinyao Wei, ZhangQian, John Li, Dong Liang, Zeyu Wang, Jinyuan Jia">
+  <meta name="author" content="Zi'ang Lu, Kang Du, Xinyao Wei, Qian Zhang, John Li, Dong Liang, Zeyu Wang, Jinyuan Jia">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
@@ -44,7 +44,7 @@
   <meta name="citation_author" content="Lu, Ziang">
   <meta name="citation_author" content="Du, Kang">
   <meta name="citation_author" content="Wei, Xinyao">
-  <meta name="citation_author" content="Qian, Zhang">
+  <meta name="citation_author" content="Zhang, Qian">
   <meta name="citation_author" content="Li, John">
   <meta name="citation_author" content="Liang, Dong">
   <meta name="citation_author" content="Wang, Zeyu">
@@ -113,10 +113,10 @@
     "author": [
       {
         "@type": "Person",
-        "name": "Ziang Lu",
+        "name": "Zi'ang Lu",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "The Hong Kong University of Science and Technology (Guangzhou)"
         }
       },
       {
@@ -124,7 +124,7 @@
         "name": "Kang Du",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "The Hong Kong University of Science and Technology (Guangzhou)"
         }
       },
       {
@@ -132,15 +132,15 @@
         "name": "Xinyao Wei",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "Tongji University"
         }
       },
       {
         "@type": "Person",
-        "name": "Zhang Qian",
+        "name": "Qian Zhang",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "Tongji University"
         }
       },
       {
@@ -148,7 +148,7 @@
         "name": "John Li",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "Tongji University"
         }
       },
       {
@@ -156,7 +156,7 @@
         "name": "Dong Liang",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "City University of Hong Kong, Tongji University"
         }
       },
       {
@@ -164,7 +164,7 @@
         "name": "Zeyu Wang",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "The Hong Kong University of Science and Technology (Guangzhou), The Hong Kong University of Science and Technology"
         }
       },
       {
@@ -172,7 +172,7 @@
         "name": "Jinyuan Jia",
         "affiliation": {
           "@type": "Organization",
-          "name": "HKUST(GZ)"
+          "name": "Tongji University"
         }
       }
     ],
@@ -185,7 +185,7 @@
     "image": "https://strange-tech.github.io/InstGS-homepage/static/images/social_preview.png",
     "keywords": ["3D Gaussian Splatting", "Novel View Synthesis", "Instancing", "Accelerated Rendering", "Neural Rendering", "ECCV 2026"],
     "abstract": "3D Gaussian Splatting (3DGS) and Neural Radiance Fields (NeRF) have demonstrated remarkable capabilities in photo-realistic novel view synthesis. However, their practical adoption is often hindered by substantial storage requirements and limited rendering efficiency, particularly for scenes with repetitive structures. While existing acceleration methods primarily focus on optimizing individual Gaussian primitives or neural network architectures, they fail to address the fundamental redundancy inherent in repetitive content. To overcome this limitation, we introduce InstGS, the first Gaussian instancing-based accelerated rendering framework. To eliminate redundancy at the representation level, we perform gradient-driven cross-frame instance segmentation to group similar Gaussians into reusable components. A shared Gaussian template with instance-specific offsets is optimized to replace all similar instances, yielding substantial memory saving with negligible loss in visual fidelity. Extensive experiments demonstrate that InstGS achieves high-quality, high-frame-rate, and low-memory rendering performance.",
-    "citation": "@inproceedings{lu2026instgs,\n  title={InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering},\n  author={Lu, Ziang and Du, Kang and Wei, Xinyao and Qian, Zhang and Li, John and Liang, Dong and Wang, Zeyu and Jia, Jinyuan},\n  booktitle={European Conference on Computer Vision (ECCV)},\n  year={2026}\n}",
+    "citation": "@inproceedings{lu2026instgs,\n  title={InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering},\n  author={Lu, Ziang and Du, Kang and Wei, Xinyao and Zhang, Qian and Li, John and Liang, Dong and Wang, Zeyu and Jia, Jinyuan},\n  booktitle={European Conference on Computer Vision (ECCV)},\n  year={2026}\n}",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
@@ -273,30 +273,32 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Add personal website links for each author -->
               <span class="author-block">
-                <a href="https://strange-tech.github.io" target="_blank">Ziang Lu</a><sup>✉</sup>,</span>
+                <a href="https://strange-tech.github.io" target="_blank">Zi'ang Lu</a><sup>1</sup>,</span>
               <span class="author-block">
-                Kang Du,</span>
+                Kang Du<sup>1</sup>,</span>
               <span class="author-block">
-                Xinyao Wei,</span>
+                Xinyao Wei<sup>4</sup>,</span>
               <span class="author-block">
-                Zhang Qian,</span>
+                Qian Zhang<sup>4</sup>,</span>
               <span class="author-block">
-                John Li,</span>
+                John Li<sup>4</sup>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Dong Liang</a><sup>✉</sup>,</span>
+                <a href="#" target="_blank">Dong Liang</a><sup>3,4,✉</sup>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Zeyu Wang</a><sup>✉</sup>,</span>
+                <a href="#" target="_blank">Zeyu Wang</a><sup>1,2,✉</sup>,</span>
               <span class="author-block">
-                <a href="#" target="_blank">Jinyuan Jia</a><sup>✉</sup></span>
+                <a href="#" target="_blank">Jinyuan Jia</a><sup>4,✉</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)</span><br>
+              <span class="author-block"><sup>2</sup>The Hong Kong University of Science and Technology</span><br>
+              <span class="author-block"><sup>3</sup>City University of Hong Kong &nbsp;&nbsp; <sup>4</sup>Tongji University</span><br>
               <span class="author-block">
-                <a href="https://cma.hkust-gz.edu.cn/" target="_blank">Computational Media and Arts Lab (CMA)</a>,<br>
-                The Hong Kong University of Science and Technology (Guangzhou)<br>
-                <strong>ECCV 2026</strong>
-              </span>
-              <span class="eql-cntrb"><small><br><sup>✉</sup>Corresponding Authors</small></span>
+                <a href="https://cma.hkust-gz.edu.cn/" target="_blank">Computational Media and Arts Lab (CMA)</a>
+              </span><br>
+              <strong>ECCV 2026</strong>
+              <span class="eql-cntrb"><small><br><sup>✉</sup>Corresponding Authors: donliang5-c@my.cityu.edu.hk, zeyuwang@ust.hk, csjyjia@aliyun.com</small></span>
             </div>
 
             <div class="column has-text-centered">
@@ -504,7 +506,7 @@
       </div>
       <pre id="bibtex-code"><code>@inproceedings{lu2026instgs,
   title={InstGS: Shared-Template Gaussian Instancing for Object-Redundancy-Free Rendering},
-  author={Lu, Ziang and Du, Kang and Wei, Xinyao and Qian, Zhang and Li, John and Liang, Dong and Wang, Zeyu and Jia, Jinyuan},
+  author={Lu, Ziang and Du, Kang and Wei, Xinyao and Zhang, Qian and Li, John and Liang, Dong and Wang, Zeyu and Jia, Jinyuan},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2026}
 }</code></pre>
